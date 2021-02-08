@@ -9,7 +9,7 @@ namespace GenericsIntro
     {
         T[] items; // bir diziyi new'lememiz lazım yoksa hata alırız.
         // BU blok constructor
-        public MyList() // buda aslında bir metot.bub metot bloğunu ctor yazıp iki kez tab yaptığımızda kolayca yapabiliriz.
+        public MyList() // buda aslında bir metot.bu metot bloğunu ctor yazıp iki kez tab yaptığımızda kolayca yapabiliriz.
         {
             items = new T[0];  //artık bizim elimizde bir dizi var 0 elemanlı. ve biz şimdi dizimize eleman ekleyebiliriz. Aşağıda ekleyeceğiz.
         }
