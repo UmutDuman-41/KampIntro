@@ -12,6 +12,7 @@ namespace OOP2
             musteri1.Adi = "Engin";
             musteri1.Soyadi = "Demiroğ";
             musteri1.TcNo = "1234567890";
+           
 
 
 
