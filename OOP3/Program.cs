@@ -25,7 +25,7 @@ namespace OOP3
 
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager,konutKrediManager }; //Buraya istediğin kadar kredi gönderebilirsin.BasvuruManager'daki foreach hepsini dolaşacaktır.
 
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 
         }
     }
