@@ -26,7 +26,7 @@ namespace Donguler
             Console.WriteLine("For bitti");
 
             foreach (string kurs in kurslar) // in kurslar demek kurslar içindeki kursları tek tek dolaş.Foreach dizilere uygulanır. Foreach dizi temelli yapıları tek tek dönmeye
-                                             // yarıyor.kurs'un veri tipi ise string
+                                             // yarıyor.kurs'un veri tipi ise string. foreach: dizi temelli yapıları tek tek dönmeye yarıyor.
 
             {
                 Console.WriteLine(kurs);
