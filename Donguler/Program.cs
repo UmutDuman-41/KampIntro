@@ -3,16 +3,17 @@
 namespace Donguler
 {
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
-            string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı";
+            string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı"; 
             string kurs2 = "Programlamaya Başlangıç için Temel Kurs";
             string kurs3 = "Java"; // Bu şekilde uzun uzun stringleri tanımlamaktansa dizilerde tanımlayarak işimizi kolaylaştırabiliriz.
             string kurs4 = "Python";
             string kurs5 = "C#";
 
             //Bu tip verileri dizilerde yani array'lerde tutarız.
+            //Bir array alttaki gibi yazılır.
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı" ,"Programlamaya Başlangıç için Temel Kurs",
             "Java","Python","C#"};   //kurslar diye bir array oluşturduk ve bu sayede istediğimiz kadar kursu tek bir değişkende tutabiliriz.
 
@@ -24,8 +25,9 @@ namespace Donguler
             }
             Console.WriteLine("For bitti");
 
-            foreach (string kurs in kurslar) // in kurslar demek kurslar içindeki kursları tek tek dolaş.Foreach dizilere uygulanır. Foreach dizi temelli yapıları tek tek dönmeye yarıyor.
-                  // kurs'un veri tipi ise string
+            foreach (string kurs in kurslar) // in kurslar demek kurslar içindeki kursları tek tek dolaş.Foreach dizilere uygulanır. Foreach dizi temelli yapıları tek tek dönmeye
+                                             // yarıyor.kurs'un veri tipi ise string
+
             {
                 Console.WriteLine(kurs);
             }
