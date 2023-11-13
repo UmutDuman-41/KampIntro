@@ -13,7 +13,7 @@ namespace Metotlar
             string[] meyveler = new string[] { };
 
             Urun urun1 = new Urun();  // Urun tipinde urun1'i tanımladık.urun1 yerine başka bir isimde verebilirdik.
-            urun1.Adi = "Elma";  // Bizim bir manavda bir tip 'Urun'ümüz var ve bu 'Urun'ümüzün urun1.Bu urun.1'imizin adı "Elma" 
+            urun1.Adi = "Elma";  // Bizim bir manavda bir tip 'Urun'ümüz var ve bu 'Urun'ümüz urun1.Bu urun1'imizin adı "Elma". 
             urun1.Fiyati = 15;
             urun1.Aciklama = "Amasya Elması";
 
@@ -44,6 +44,10 @@ namespace Metotlar
             sepetManager.Ekle2("Elma", "Yeşil Elma", 7,11);
             sepetManager.Ekle2("Muz", "Sarı", 15,13);
 
+
+            // NOT:Metotlar, tekrar tekrar kullanılabilirliği sağlayan kod bloklarıdır.
+
+            //Don't repeat yourself - DRY - Clean Code - Best Practice
         }
     }
 }

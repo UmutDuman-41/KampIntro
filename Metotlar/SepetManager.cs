@@ -8,7 +8,7 @@ namespace Metotlar
     class SepetManager
     {
         // Parametre olarak 'urun' ekledik.
-        public void Ekle(Urun urun) // Ne eklemek istediğimizi parantez içinde metoda verdik.'Urun' veri tipi; küçük urun ise kullanırken verdiğimiz isimlendirme.
+        public void Ekle(Urun urun) // Ne eklemek istediğimizi parantez içinde metoda(fonksiyon da denebilir) verdik.'Urun' veri tipi; küçük urun ise kullanırken verdiğimiz isimlendirme.
         {
             Console.WriteLine("Tebrikler.Sepete Eklendi : " + urun.Adi);
 

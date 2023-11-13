@@ -1,4 +1,5 @@
-KampIntro sonra Donguler
+KampIntro sonra Donguler sonra ClassIntro
+sonra Metotlar
 
 
 
