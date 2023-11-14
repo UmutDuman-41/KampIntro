@@ -1,5 +1,6 @@
 KampIntro sonra Donguler sonra ClassIntro
-sonra Metotlar
+sonra Metotlar sonra matematik sonra 
+DegerVeReferansTipler
 
 
 

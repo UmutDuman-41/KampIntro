@@ -36,6 +36,8 @@ namespace Metotlar
 
             Console.WriteLine(".........Metotlar.........");
 
+            //Encapsulation(Kapsülleme)
+
             SepetManager sepetManager = new SepetManager(); // Burada 'SepetManager' classını çağırıyoruz ve bir örneğini oluşturuyoruz.
             sepetManager.Ekle(urun1);  // Burada Ekle metodunu çağırıyoruz.
             sepetManager.Ekle(urun2); // buradaki urun1 ve urun2 sepetManager daki Ekle de 'Adi' kısmına gider adı yazılır.
