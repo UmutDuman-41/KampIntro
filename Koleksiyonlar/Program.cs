@@ -24,7 +24,7 @@ namespace Koleksiyonlar
             Console.WriteLine(isimler2[2]);
             Console.WriteLine(isimler2[3]);
             isimler2.Add("İlker"); // isimler2.Add komutu ile 'İlker'i listeye ekledik.
-            Console.WriteLine(isimler2[4]);
+            Console.WriteLine(isimler2[4]);//Şimdi isimler2 listesinde 'İlker' yazılacak ve 5. eleman olarak görünecek. Eski elemanlar ise kaybolmayacak.
             Console.WriteLine(isimler2[0]);
         }
     }
