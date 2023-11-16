@@ -15,8 +15,8 @@ namespace Koleksiyonlar
 
             //isimler = new string[5]; // new demek yeni referans adresi demek. new diyerek burada 5 elemanlı boş bir array oluşturduk.
             //isimler[4] = "İlker"; // burada 5 elemanlı array'i oluşturduktan sonra 'ilker'i atadık ama diğer isimleri atamadığımız için diğer isimleri okumaz.
-            //Console.WriteLine(isimler[4]);  // arraylerde sabitlik var.Yani bir arrayi 4 elemanlı tanımladığımızda onu 5 elemanlı yapsak bile 'new' demek gerektiği için yeni elemanı eklesek bile eski elemanları kaybediyoruz.
-            //Console.WriteLine(isimler[0]); // yukarıdaki kusurdan dolayı 'List'i kullanıyoruz.
+            //Console.WriteLine(isimler[4]);// arraylerde sabitlik var.Yani bir arrayi 4 elemanlı tanımladığımızda onu 5 elemanlı yapsak bile 'new' demek gerektiği için yeni elemanı eklesek bile eski elemanları kaybediyoruz.
+            //Console.WriteLine(isimler[0]);// yukarıdaki kusurdan dolayı 'List'i kullanıyoruz.
 
             List<string> isimler2 = new List<string>{"Engin", "Murat", "Kerem", "Halil"};
             Console.WriteLine(isimler2[0]);
