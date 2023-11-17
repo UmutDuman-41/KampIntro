@@ -4,7 +4,7 @@ DegerVeReferansTipler sonra OOP1
 sonra koleksiyonlar sonra GenericsIntro
 
 
-GenericsIntro 4.ders de anlatıldı.
+GenericsIntro 4.ders de anlatıldı.Önemli bir konu.
 
 
 UMUT@DESKTOP-HOC5JLI(Visual Studio email adres yerinde yazan yazı.)
