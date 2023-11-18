@@ -2,9 +2,10 @@ KampIntro sonra Donguler sonra ClassIntro
 sonra Metotlar sonra matematik sonra 
 DegerVeReferansTipler sonra OOP1
 sonra koleksiyonlar sonra GenericsIntro
+sonra OOP2 sonra OOP3
 
 
 GenericsIntro 4.ders de anlatıldı.Önemli bir konu.
-
+5. derste discord grup linki var.
 
 UMUT@DESKTOP-HOC5JLI(Visual Studio email adres yerinde yazan yazı.)

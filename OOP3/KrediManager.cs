@@ -9,6 +9,7 @@ namespace OOP3
    //interfaceleri birbirinin alternatifi olan ama kod içerikleri farklı olan durumlar için kullanırız.
    // İnterface'ler sayesinde  class'lar Hesapla metodunu farklı işlemler için kullanablir.
     // IKrediManager'daki I, interface olduğunu anlamamız içindir.
+    //Interface'leri genellik operasyonel metodlarda kullanırız.
     {
         void Hesapla();
         void BiseyYap();

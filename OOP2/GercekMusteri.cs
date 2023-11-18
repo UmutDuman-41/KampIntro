@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP2
 {
-    class GercekMusteri : Musteri
+    class GercekMusteri : Musteri//GercekMusteri' de bir müşteridir.
     {
 
         public string TcNo { get; set; }

@@ -8,6 +8,7 @@ namespace OOP3
     {
         //burada biz aşağıda yani, method injection yapıyoruz.Yani bu metodun kullanacağı kredi managerın ne olacağını yani hangi kredi türü olacağını ve hangi loglayıcı olacağını enjekte ediyoruz.
         //LOGLAMA:Kim ne zaman hangi operasyonu çağırdıdır.Yani birnevi o sistemde olan hareketleri döktüğümüz bir dökümdür.
+        //Method Injection: Yani bu aşağıdaki metodun krediManager ve loggerService' in hangisi olacağını belirliyoruz.
         public void BasvuruYap(IKrediManager krediManager,ILoggerService loggerService)// buraya hangi krediyi yollarsak(yani IhtiyacKrediManager,KonutKrediManager...)onun bellekteki Hesapla' sı çalışır.
         {                                                                               //biz burada diyoruzki.Bu metodu aynı zamanda loglamak istiyorum(ILoggerService loggerService diyerek) 
             
@@ -15,11 +16,11 @@ namespace OOP3
             loggerService.Log();// hesaplamayı yaptıktan sonra başvurunun sonunda  hangi loggerService gönderilmişse onu logla(loggerService.Log diyerek)
         }
 
-        public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler) //Burada diyoruzki,Bana bir krediler listesi ver.Veri türü IKrediManager.
+        public void KrediOnBilgilendirmesiYap(List<IKrediManager> kredilerimiz) //Burada diyoruzki,Bana bir krediler listesi ver.Veri türü IKrediManager.
         {
-            foreach (var kredi in krediler)
+            foreach (var kredi in kredilerimiz)
             {
-                kredi.Hesapla();  // 'krediler'deki her bir 'kredi'nin bir operasyonunu yap.Hesapla'sını yani.
+                kredi.Hesapla();  // 'kredilerimiz'deki her bir 'kredi'nin bir operasyonunu yap.Hesapla'sını yani.
             }
         }
     }

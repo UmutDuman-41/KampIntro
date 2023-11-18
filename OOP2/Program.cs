@@ -16,7 +16,7 @@ namespace OOP2
 
 
 
-            //Kodlama.io
+            //Kodlama.io aşağıdaki tüzel müşteri
 
             TuzelMusteri musteri2 = new TuzelMusteri();
             musteri2.Id = 2;
@@ -32,6 +32,8 @@ namespace OOP2
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(musteri1);
             customerManager.Add(musteri2);
+            customerManager.Add(musteri3);  
+            customerManager.Add(musteri4);  
 
 
         }    

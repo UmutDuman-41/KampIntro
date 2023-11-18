@@ -17,11 +17,14 @@ namespace OOP3
 
 
             ILoggerService databaseLoggerService = new DatabaseLoggerService();  
-            ILoggerService fileLoggerService = new FileLoggerService();//Elimizde 2 tane loglayıcı var.Biri üstteki,biri de buradaki.
+            ILoggerService fileLoggerService = new FileLoggerService();//Elimizde 2 tane loglayıcı var.Biri üstteki,biri de buradaki.Aşağıda biz databaseLoggerService'i seçtik.
 
             BasvuruManager basvuruManager = new BasvuruManager();
+            basvuruManager.BasvuruYap(konutKrediManager, new DatabaseLoggerService());//Alttaki ile aynı kullanım.
             basvuruManager.BasvuruYap(konutKrediManager, databaseLoggerService); // burada BasvuruYap diyorki ben burada bu işi loglama yapacam o yüzden hangi loglama işini yapacağımı söyle diyor.
+            //BasvuruYap fonk.una konutKrediManager yollanınca onun için işlem yapılacak.
             //Yukarıdaki kodun açıklaması:BasvuruYap , konutKredisine göre ve loglamayı veri tabanına yapacak şekilde.
+            basvuruManager.BasvuruYap(tasitKrediManager,fileLoggerService);
 
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager,konutKrediManager }; //Buraya istediğin kadar kredi gönderebilirsin.BasvuruManager'daki foreach hepsini dolaşacaktır.
 

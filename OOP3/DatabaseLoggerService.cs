@@ -8,6 +8,7 @@ namespace OOP3
     {
         public void Log()
         {
+            //NOT: Loglama; kim,ne zaman hangi operasyonu çağırdığıdır.
             Console.WriteLine("Veri tabanına loglandı");
         }
     }
