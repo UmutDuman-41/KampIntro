@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Metotlar
+﻿namespace Metotlar
 {
     class Urun  // Burada 'Urun' bir class.Aynı zamanda bir veri tipidir
     {

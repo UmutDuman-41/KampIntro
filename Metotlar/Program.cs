@@ -10,7 +10,7 @@ namespace Metotlar
             double fiyati = 15;
             string aciklama = "Amasya Elması";
 
-            string[] meyveler = new string[] { };
+            string[] meyveler = new string[] {"Elma", "Armut", "Muz" };
 
             Urun urun1 = new Urun();  // Urun tipinde urun1'i tanımladık.urun1 yerine başka bir isimde verebilirdik.
             urun1.Adi = "Elma";  // Bizim bir manavda bir tip 'Urun'ümüz var ve bu 'Urun'ümüz urun1.Bu urun1'imizin adı "Elma". 
