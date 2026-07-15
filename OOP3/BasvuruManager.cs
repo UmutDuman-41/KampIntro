@@ -6,14 +6,18 @@ namespace OOP3
 {
     class BasvuruManager
     {
-        //burada biz aşağıda yani, method injection yapıyoruz.Yani bu metodun kullanacağı kredi managerın ne olacağını yani hangi kredi türü olacağını ve hangi loglayıcı olacağını enjekte ediyoruz.
+        //Burada biz aşağıda yani, method injection yapıyoruz.Yani bu metodun kullanacağı kredi managerın ne olacağını
+        //DEVAMI: yani hangi kredi türü olacağını ve hangi loglayıcı olacağını enjekte ediyoruz.
         //LOGLAMA:Kim ne zaman hangi operasyonu çağırdıdır.Yani birnevi o sistemde olan hareketleri döktüğümüz bir dökümdür.
         //Method Injection: Yani bu aşağıdaki metodun krediManager ve loggerService' in hangisi olacağını belirliyoruz.
-        public void BasvuruYap(IKrediManager krediManager,ILoggerService loggerService)// buraya hangi krediyi yollarsak(yani IhtiyacKrediManager,KonutKrediManager...)onun bellekteki Hesapla' sı çalışır.
-        {                                                                               //biz burada diyoruzki.Bu metodu aynı zamanda loglamak istiyorum(ILoggerService loggerService diyerek) 
+        public void BasvuruYap(IKrediManager krediManager,ILoggerService loggerService)// Buraya hangi krediyi yollarsak
+                                                                                       //DEVAMI: (yani IhtiyacKrediManager,KonutKrediManager...) onun bellekteki
+                                                                                       //DEVAMI: Hesapla' sı çalışır.
+        {                                                                              //Biz burada diyoruzki. Bu metodu aynı zamanda loglamak istiyorum
+                                                                                       //DEVAMI:(ILoggerService loggerService diyerek) 
             
             krediManager.Hesapla();
-            loggerService.Log();// hesaplamayı yaptıktan sonra başvurunun sonunda  hangi loggerService gönderilmişse onu logla(loggerService.Log diyerek)
+            loggerService.Log();//Hesaplamayı yaptıktan sonra başvurunun sonunda  hangi loggerService gönderilmişse onu logla(loggerService.Log diyerek)
         }
 
         public void KrediOnBilgilendirmesiYap(List<IKrediManager> kredilerimiz) //Burada diyoruzki,Bana bir krediler listesi ver.Veri türü IKrediManager.

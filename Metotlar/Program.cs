@@ -36,8 +36,8 @@ namespace Metotlar
 
             Console.WriteLine(".........Metotlar.........");
 
-            //Encapsulation(Kapsülleme) : Ayrı ayrı düzensiz yazacağımız şeyi bir düzeninin bir kapsülün içine sokmamızdır.
-            //DEVAMI: Veriyi gizlemek ve güvenli kapılar (public,private, protected property/metot) arkasına almak.
+            //Encapsulation(Kapsülleme) : Ayrı ayrı düzensiz yazacağımız şeyi bir düzenin bir kapsülün içine sokmamızdır.
+            //DEVAMI: Veriyi gizlemek ve güvenli kapılar (public,private, protected property/metot) arkasına almaktır.
 
             SepetManager sepetManager = new SepetManager(); // Burada 'SepetManager' classını çağırıyoruz ve bir örneğini oluşturuyoruz.
             sepetManager.Ekle(urun1);  // Burada Ekle metodunu çağırıyoruz.

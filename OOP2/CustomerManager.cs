@@ -4,7 +4,8 @@ using System.Text;
 
 namespace OOP2
 {
-    class CustomerManager // Manager sınıfları iş sınıflarıdır.İş sınıflarında kuralları yazarız.TuzelMusteri ve GercekMusteri class'ları operasyonların yapılacağı değil,özelliklerin yazıldığı classlardır.
+    class CustomerManager // Manager sınıfları iş sınıflarıdır.İş sınıflarında kuralları yazarız.
+                          //DEVAMI: TuzelMusteri ve GercekMusteri class'ları operasyonların yapılacağı değil,özelliklerin yazıldığı classlardır.
     {
         public void Add(Musteri musteri)
         {

@@ -6,10 +6,11 @@ namespace OOP1
 {
     class ProductManager
     {
-        public void Add(Product product) //Add ,yani ekleme operasyonu yapacağız.// Burada Product türünde bir 'product' istiyoruz.Parantez içine  (string ad) yazmak gibi. 
-       // Biz buraya 'Product' türünde bir şey yollayacağız ve burada 'product' isminde tutulacak.
+        public void Add(Product product) //Add ,yani ekleme operasyonu yapacağız.
+       //DEVAMI: Burada Product türünde bir 'product' istiyoruz. Parantez içine (string ad) yazmak gibi. 
+       //DEVAMI: Biz buraya 'Product' türünde bir şey yollayacağız ve burada 'product' isminde tutulacak.
         {
-            Console.WriteLine(product.ProductName + "eklendi."); 
+            Console.WriteLine(product.ProductName + " eklendi."); 
         }
 
         public void Update(Product product)   // void,bir işlemi yapar ve bitirir.
